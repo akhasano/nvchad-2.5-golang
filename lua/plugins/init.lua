@@ -12,6 +12,7 @@ return {
       require "configs.lspconfig"
     end,
   },
+  -- mine plugins here
   {
     "phaazon/hop.nvim",
     event = "BufReadPost",
@@ -20,6 +21,7 @@ return {
       require "configs.hop"
     end,
   },
+  -- end mine plugins here
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
