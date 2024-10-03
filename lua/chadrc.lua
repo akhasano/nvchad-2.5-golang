@@ -13,5 +13,10 @@ M.base46 = {
 	-- 	["@comment"] = { italic = true },
 	-- },
 }
+vim.cmd('set autochdir')
+vim.cmd('set mouse=n')
+vim.cmd('set foldmethod=indent')
+vim.cmd('set foldlevel=100')
+vim.cmd('set clipboard=unnamedplus')
 
 return M
